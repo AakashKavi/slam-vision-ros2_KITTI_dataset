@@ -2,6 +2,11 @@
 
 A Visual SLAM implementation using RTAB-Map in stereo mode with the KITTI odometry dataset, built on ROS2 Humble.
 
+## Demo
+![RTAB-Map demo 1](docs/RTAB_Map_demo_1.png)
+![RTAB-Map demo 2](docs/RTAB_Map_demo_2.png)
+![RTAB-Map demo 3](docs/RTAB_Map_demo_3.png)
+
 ## Stack
 - Ubuntu 22.04
 - ROS2 Humble
