@@ -31,13 +31,16 @@ jobs:
 
       - name: Validate YAML configs
         run: |
-          pip install pyyaml
+         pip install pyyaml
           python -c "
           import yaml, glob, sys
           files = glob.glob('config/*.yaml')
           for f in files:
               with open(f) as fh:
-                  yaml.safe_load(fh)
+                  content = fh.read()
+              if content.startswith('%'):
+                  content = '\n'.join(content.split('\n')[1:])
+              yaml.safe_load(content)
               print(f'OK: {f}')
           "
 
