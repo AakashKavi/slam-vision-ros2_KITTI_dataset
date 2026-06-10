@@ -31,7 +31,7 @@ jobs:
 
       - name: Validate YAML configs
         run: |
-         pip install pyyaml
+          pip install pyyaml
           python -c "
           import yaml, glob, sys
           files = glob.glob('config/*.yaml')
