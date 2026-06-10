@@ -1,5 +1,5 @@
 # SLAM Vision - ROS2 with KITTI Dataset
-![SLAM CI](https://github.com/AakashKavi/slam-vision-ros2_KITTI_dataset/actions/workflows/ci.yml/badge.svg?branch=master)
+![SLAM CI](https://github.com/AakashKavi/slam-vision-ros2_KITTI_dataset/actions/workflows/ci.yml/badge.svg)
 
 A Visual SLAM implementation using RTAB-Map in stereo mode with the KITTI odometry dataset, built on ROS2 Humble.
 
